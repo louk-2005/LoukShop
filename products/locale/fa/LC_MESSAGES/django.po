@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-22 23:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: products/serializers.py:83
+#, fuzzy
+#| msgid "User is required to create a cart item."
+msgid "User is required to create a cart."
+msgstr "کاربر یافت نشد"
+
+#: products/serializers.py:109 products/serializers.py:118
+#: products/serializers.py:123
+msgid "Product is not available"
+msgstr "کالا در دسترس نیست"
+
+#: products/serializers.py:112
+msgid "Product_variation does not belong to this product"
+msgstr "کالای انتخابی بااین ویژگی ها موجود نیست "
+
+#: products/serializers.py:120
+msgid "Quantity must be a positive integer."
+msgstr "مقدار انتخابی باید مثبت باشد"
+
+#: products/serializers.py:125
+msgid "Product is not active"
+msgstr "کالا موجود نیست"
+
+#: products/serializers.py:135
+msgid "User is required to create a cart item."
+msgstr "کاربر یافت نشد"
+
+#: products/serializers.py:151
+#, fuzzy
+#| msgid "Coupon does not exist."
+msgid "Coupon code is not valid."
+msgstr "کد تخفیف معتبر نیست ندارد"
+
+#: products/serializers.py:154
+msgid "Coupon does not exist."
+msgstr "کد تخفیف وجود ندارد"
+
+#: products/serializers.py:200
+#, fuzzy
+#| msgid "User is required to create a cart item."
+msgid "User is required to create a order."
+msgstr "کاربر یافت نشد"
+
+#: products/serializers.py:203
+msgid "This user don't have any cart."
+msgstr "این کاربر سبد خرید ندارد"
+
+#: products/serializers.py:240
+#, fuzzy
+#| msgid "Coupon does not exist."
+msgid "Status is not valid."
+msgstr "کد تخفیف معتبر نیست ندارد"
+
+#: products/views.py:156
+msgid "Discount applied successfully"
+msgstr "تخفیف شما اعمال شد"
+
+#: products/views.py:159
+msgid "Cart not found for this user"
+msgstr "سبد خریدی برای این کاربر یافت نشد"
+
+#: products/views.py:161
+#, fuzzy
+#| msgid "Coupon does not exist."
+msgid "Coupon does not exist"
+msgstr "کد تخفیف وجود ندارد"
+
+#: products/views.py:162
+msgid "Invalid coupon"
+msgstr "کد تخفیف نا معتبر"
+
+#: products/views.py:209
+msgid "Status change successfully"
+msgstr "عملیات موفقیت امیز بود"
+
+#: products/views.py:213
+msgid "invalid argument"
+msgstr "متغیر نا معتبر است"

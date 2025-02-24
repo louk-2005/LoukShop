@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-22 22:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: accounts/serializers.py:24
+msgid "User with this email already exists"
+msgstr "کاربری با این ایمیل از قبل موجود است"
+
+#: accounts/serializers.py:30
+msgid "User with this phone already exists"
+msgstr "کاربری با این شماره وجود دارد"
+
+#: accounts/serializers.py:34 accounts/serializers.py:52
+msgid "Passwords do not match"
+msgstr "پسورد ها یکسان نیستند"
+
+#: accounts/serializers.py:47
+msgid ""
+"Password must be at least 8 characters long with at least one capital letter "
+"and symbol"
+msgstr "پسورد باید حداقل ۸ کاراکتر و یک حرف بزرگ باشد"
+
+#: accounts/views.py:60
+#, python-brace-format
+msgid "use this link to reset your password: {reset_url}"
+msgstr "از لینک رو به رو برای عوض کردن پسورد خود استفاده کنید"
+
+#: accounts/views.py:65
+msgid "We have sent you a link to reset your password"
+msgstr "ما برای شما یک لینک در ایمیل ارسال کردیم"
+
+#: accounts/views.py:68
+#, fuzzy
+#| msgid "User with this email already exists"
+msgid "User whit this email is not exist"
+msgstr "کاربری با این ایمیل از قبل موجود است"
+
+#: accounts/views.py:69 accounts/views.py:93
+msgid "validation error"
+msgstr "ارور نامعتبر بودن"
+
+#: accounts/views.py:85
+#, fuzzy
+#| msgid "invalid argument"
+msgid "Invalid Token"
+msgstr "متغیر نا معتبر"
+
+#: accounts/views.py:91
+msgid "Your password has been reset"
+msgstr "پسورد شما عوض شد"
+
+#: accounts/views.py:92
+#, fuzzy
+#| msgid "User with this email already exists"
+msgid "User with this email not found"
+msgstr "کاربری با این ایمیل از قبل موجود است"
+
+#~ msgid "password"
+#~ msgstr "پسورد"
