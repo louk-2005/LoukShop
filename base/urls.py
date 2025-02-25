@@ -50,3 +50,17 @@ if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = lambda request, exception=None: JsonResponse({'error': '404: The resource was not found'}, status=404)
+
+#
+# {
+#     "user_id": 2944942
+# }
+
+
+# {
+#     "avatar": "https://gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?r=g&d=mm",
+#     "channel": "sms",
+#     "ussd_code": "",
+#     "waiting_time": 60,
+#     "otp_time_diff": 900
+# }
