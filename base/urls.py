@@ -26,6 +26,8 @@ from rest_framework_simplejwt.views import (
 from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView, SpectacularRedocView
 from django.conf import settings
 from django.conf.urls.static import static
+from azbankgateways.urls import az_bank_gateways_urls
+from payment.views import go_to_gateway_view,callback_gateway_view
 
 token_patterns = [
     path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
@@ -38,6 +40,10 @@ token_patterns = [
     path('swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
     path('redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
     path('ckeditor/', include('ckeditor_uploader.urls')),
+    path("bankgateways/", az_bank_gateways_urls()),
+    path('go-to-getaway/', go_to_gateway_view),
+    path('call-back-getaway/', callback_gateway_view),
+
 ]
 
 urlpatterns = [

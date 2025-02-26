@@ -1,0 +1,493 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "title": "s",
+    "title_en": null,
+    "title_fa": "s",
+    "slug": "s",
+    "parent": null,
+    "lft": 1,
+    "rght": 8,
+    "tree_id": 2,
+    "level": 0
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "title": "dfg",
+    "title_en": null,
+    "title_fa": "dfg",
+    "slug": "dfg",
+    "parent": 1,
+    "lft": 6,
+    "rght": 7,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "title": "df",
+    "title_en": "df",
+    "title_fa": "f",
+    "slug": "df",
+    "parent": 1,
+    "lft": 2,
+    "rght": 5,
+    "tree_id": 2,
+    "level": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "title": "erwe",
+    "title_en": null,
+    "title_fa": "erwe",
+    "slug": "erwe",
+    "parent": 5,
+    "lft": 3,
+    "rght": 4,
+    "tree_id": 2,
+    "level": 2
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "title": "dgert",
+    "title_en": "dgert",
+    "title_fa": "g",
+    "slug": "dgert",
+    "parent": null,
+    "lft": 1,
+    "rght": 4,
+    "tree_id": 1,
+    "level": 0
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "title": "dfgj",
+    "title_en": "dfgj",
+    "title_fa": "fg",
+    "slug": "dfgj",
+    "parent": 7,
+    "lft": 2,
+    "rght": 3,
+    "tree_id": 1,
+    "level": 1
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss",
+    "parent": null,
+    "lft": 1,
+    "rght": 2,
+    "tree_id": 3,
+    "level": 0
+  }
+},
+{
+  "model": "products.category",
+  "pk": 12,
+  "fields": {
+    "title": "sss",
+    "title_en": "sss",
+    "title_fa": null,
+    "slug": "sss",
+    "parent": null,
+    "lft": 1,
+    "rght": 2,
+    "tree_id": 4,
+    "level": 0
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "updated_at": "2025-02-24T07:59:05.623Z",
+    "created_at": "2025-02-23T07:38:44.378Z",
+    "title": "sss",
+    "title_en": "sss",
+    "title_fa": null,
+    "slug": "s",
+    "description": "سیبfdfd",
+    "description_en": "سیبfdfd",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "updated_at": "2025-02-23T07:39:01.534Z",
+    "created_at": "2025-02-23T07:39:01.534Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss",
+    "description": "سیب",
+    "description_en": "سیب",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "updated_at": "2025-02-23T07:49:04.436Z",
+    "created_at": "2025-02-23T07:49:04.436Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss-2",
+    "description": "سیب",
+    "description_en": "سیب",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "updated_at": "2025-02-23T07:49:09.806Z",
+    "created_at": "2025-02-23T07:49:09.806Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss-3",
+    "description": "سیب",
+    "description_en": "سیب",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "updated_at": "2025-02-23T15:21:48.679Z",
+    "created_at": "2025-02-23T15:21:48.679Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss-4",
+    "description": "سیب",
+    "description_en": "سیب",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "updated_at": "2025-02-23T15:45:46.930Z",
+    "created_at": "2025-02-23T15:45:46.930Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss-5",
+    "description": "سیب",
+    "description_en": "سیب",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "updated_at": "2025-02-26T07:17:12.335Z",
+    "created_at": "2025-02-23T15:45:47.918Z",
+    "title": "سیب",
+    "title_en": null,
+    "title_fa": "سیب",
+    "slug": "ss-6",
+    "description": "<p>سیب</p>",
+    "description_en": "<p>سیب</p>",
+    "description_fa": "<p>سبسیب</p>",
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "updated_at": "2025-02-23T15:46:10.754Z",
+    "created_at": "2025-02-23T15:46:10.754Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": null,
+    "slug": "ss-7",
+    "description": "سیب",
+    "description_en": "سیب",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "updated_at": "2025-02-23T16:06:54.938Z",
+    "created_at": "2025-02-23T15:49:28.119Z",
+    "title": "ss",
+    "title_en": "ss",
+    "title_fa": "sd",
+    "slug": "ss-8",
+    "description": "<p>سیب</p>",
+    "description_en": "<p>سیب</p>",
+    "description_fa": "<p>sd</p>",
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "updated_at": "2025-02-23T16:05:04.244Z",
+    "created_at": "2025-02-23T16:05:04.244Z",
+    "title": "ss",
+    "title_en": null,
+    "title_fa": "ss",
+    "slug": "ss-9",
+    "description": "سیب",
+    "description_en": null,
+    "description_fa": "سیب",
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "updated_at": "2025-02-23T16:06:04.672Z",
+    "created_at": "2025-02-23T16:05:10.332Z",
+    "title": "ss",
+    "title_en": null,
+    "title_fa": "ss",
+    "slug": "ss-10",
+    "description": "<p>سیبfdfd</p>",
+    "description_en": "",
+    "description_fa": "<p>سیبfdfd</p>",
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "updated_at": "2025-02-23T16:07:51.206Z",
+    "created_at": "2025-02-23T16:07:51.206Z",
+    "title": "سیب",
+    "title_en": null,
+    "title_fa": "سیب",
+    "slug": "product",
+    "description": "<p>سیب</p>",
+    "description_en": "",
+    "description_fa": "<p>سیب</p>",
+    "price": "43234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "updated_at": "2025-02-23T16:09:20.836Z",
+    "created_at": "2025-02-23T16:09:20.836Z",
+    "title": "sdfشیبسشی",
+    "title_en": null,
+    "title_fa": "sdfشیبسشی",
+    "slug": "sdf",
+    "description": "<p>sdشسیب</p>",
+    "description_en": "",
+    "description_fa": "<p>sdشسیب</p>",
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "updated_at": "2025-02-26T07:18:15.635Z",
+    "created_at": "2025-02-26T07:03:20.397Z",
+    "title": "sss",
+    "title_en": "sss",
+    "title_fa": "یبلیسبل",
+    "slug": "sss",
+    "description": "<p>سیبfdfd</p>",
+    "description_en": "<p>سیبfdfd</p>",
+    "description_fa": "<p>سبسبلیسل</p>",
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "updated_at": "2025-02-26T07:19:13.588Z",
+    "created_at": "2025-02-26T07:19:13.588Z",
+    "title": "sss",
+    "title_en": "sss",
+    "title_fa": null,
+    "slug": "sss-2",
+    "description": "سیبfdfd",
+    "description_en": "سیبfdfd",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "updated_at": "2025-02-26T07:37:35.021Z",
+    "created_at": "2025-02-26T07:37:35.021Z",
+    "title": "sss",
+    "title_en": "sss",
+    "title_fa": null,
+    "slug": "sss-3",
+    "description": "سیبfdfd",
+    "description_en": "سیبfdfd",
+    "description_fa": null,
+    "price": "234.00",
+    "is_active": true,
+    "category": 1
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 1,
+  "fields": {
+    "brand_name": "3",
+    "brand_name_en": "3",
+    "brand_name_fa": null
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 2,
+  "fields": {
+    "brand_name": "3",
+    "brand_name_en": "3",
+    "brand_name_fa": null
+  }
+},
+{
+  "model": "products.variation",
+  "pk": 1,
+  "fields": {
+    "color": "red",
+    "color_en": "red",
+    "color_fa": null,
+    "size": "23",
+    "size_en": "23",
+    "size_fa": null,
+    "brands": [
+      1
+    ],
+    "brands_en": [
+      1
+    ],
+    "brands_fa": []
+  }
+},
+{
+  "model": "products.variation",
+  "pk": 2,
+  "fields": {
+    "color": "red",
+    "color_en": "red",
+    "color_fa": null,
+    "size": "23",
+    "size_en": "23",
+    "size_fa": null,
+    "brands": [
+      1
+    ],
+    "brands_en": [
+      1
+    ],
+    "brands_fa": []
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 1,
+  "fields": {
+    "product": 2,
+    "variation": 1,
+    "additional_price": "2323.00"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 2,
+  "fields": {
+    "product": 2,
+    "variation": 1,
+    "additional_price": "2323.00"
+  }
+},
+{
+  "model": "products.productvariant",
+  "pk": 3,
+  "fields": {
+    "product": 2,
+    "variation": 1,
+    "additional_price": "2323.00"
+  }
+}
+]

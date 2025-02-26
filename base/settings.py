@@ -56,12 +56,14 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'rest_framework_tracking',
+    'azbankgateways',
     # 'modeltranslation',
 
 
     #apps
     'accounts.apps.AccountsConfig',
     'products.apps.ProductsConfig',
+    'payment',
     'utils.apps.UtilsConfig',
 
 ]
@@ -249,6 +251,8 @@ SPECTACULAR_SETTINGS = {
 
 
 #ckeditor
+SILENCED_SYSTEM_CHECKS = ["ckeditor.W001"]
+
 CKEDITOR_UPLOAD_PATH = 'content/ckeditor/'
 
 
@@ -321,5 +325,39 @@ BRAND_LENGTH=20
 #django-mptt test
 MPTT_ALLOW_TESTING_GENERATORS = True
 
+#zarin pal
 
+MERCHANT  =  "00000000-0000-0000-0000-000000000000"
 
+SANDBOX  =  True
+
+AZ_IRANIAN_BANK_GATEWAYS = {
+    "GATEWAYS": {
+        "BMI": {
+            "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
+            "TERMINAL_CODE": "<YOUR TERMINAL CODE>",
+            "SECRET_KEY": "<YOUR SECRET CODE>",
+        },
+        "ZARINPAL": {
+            "MERCHANT_CODE": "<YOUR MERCHANT CODE>",
+            "SANDBOX": 0,  # 0 disable, 1 active
+        },
+        "IDPAY": {
+            "MERCHANT_CODE": MERCHANT,
+            "METHOD": "POST",  # GET or POST
+            "X_SANDBOX": 1,  # 0 disable, 1 active
+        },
+
+    },
+    "IS_SAMPLE_FORM_ENABLE": True,  # اختیاری و پیش فرض غیر فعال است
+    "DEFAULT": "IDPAY",
+    "CURRENCY": "IRR",  # اختیاری
+    "TRACKING_CODE_QUERY_PARAM": "tc",  # اختیاری
+    "TRACKING_CODE_LENGTH": 16,  # اختیاری
+    "SETTING_VALUE_READER_CLASS": "azbankgateways.readers.DefaultReader",  # اختیاری
+    "BANK_PRIORITIES": [
+
+    ],  # اختیاری
+    "IS_SAFE_GET_GATEWAY_PAYMENT": False,  # اختیاری، بهتر است True بزارید.
+    "CUSTOM_APP": None,  # اختیاری
+}
